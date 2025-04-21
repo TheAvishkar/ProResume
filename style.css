@@ -1,0 +1,29 @@
+.myimg {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.myimg:hover {
+    transform: scale(1.1);
+}
+
+.background {
+    background-color: #6c757d;
+}
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
